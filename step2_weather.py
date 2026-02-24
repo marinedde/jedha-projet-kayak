@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 # Ta clé API OpenWeatherMap
-API_KEY = "5d2d731c99f86a247d109f30b5bf837e"
+API_KEY = "YOUR_API_KEY_HERE"
 
 # On charge le fichier GPS qu'on vient de créer
 df_cities = pd.read_csv("data/cities_gps.csv")
